@@ -33,6 +33,19 @@
 ?>
 </head>
 <body>
+
+  <?php 
+    foreach ($db as $sender => $data ){
+
+      foreach ($data as $info) {
+        $name = $info['name'];
+        $surname = $info['lastname'];
+        
+        echo "<div class= '{$sender}'> {$name} {$surname} </div>";
+      }
+      
+    }
+  ?>
   
 </body>
 </html>
