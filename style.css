@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.teachers{
+  background: rgb(97, 95, 95);
+  color: white;
+  line-height: 1.5rem;
+  margin: 5px auto;
+  width: 50%;
+}
+
+.pm{
+  background: green;
+  color: white;
+  line-height: 1.5rem;
+  margin: 5px auto;
+  width: 50%;
+}
